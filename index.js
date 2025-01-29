@@ -58,6 +58,9 @@ app.get("/go", (req, res) => {
   app.get("/doge", (req, res) => {
     res.sendFile(join(__dirname, publicPath, "html", "doge.html"));
 });
+app.get("/doge2", (req, res) => {
+  res.sendFile(join(__dirname, publicPath, "html", "doge2.html"));
+});
 app.get("/package.json", (req, res) => {
   res.json(packageJson);
 });
