@@ -259,6 +259,7 @@ body[theme="orange"] .nav {
   border: 2px solid var(--button);
 }
 
+[theme="bone"] h4,
 [theme="bone"] h1,
 [theme="bone"] a,
 [theme="bone"] p,
@@ -269,10 +270,12 @@ body[theme="orange"] .nav {
 }
 
 [theme="audi"] h1,
+[theme="audi"] h4,
 [theme="audi"] a,
 [theme="audi"] p,
 [theme="audi"] span,
 [theme="audi"] select,
+[theme="audi"] button,
 [theme="audi"] input {
   font-family: "audi" !important;
 }
