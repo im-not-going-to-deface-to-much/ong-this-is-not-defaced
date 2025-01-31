@@ -2,6 +2,10 @@
   font-family: "bone";
   src: url("../media/nasalization-rg.otf") format("opentype");
 }
+@font-face {
+  font-family: "audi";
+  src: url("../media/auditype_extendednormal.ttf") format("truetype");
+}
 
 body[theme="greypurple"] {
   --bg: linear-gradient(
@@ -240,6 +244,20 @@ body[theme="orange"] .nav {
   border: 2px solid var(--button);
 }
 
+body[theme="audi"] {
+  --bg: #c0c6c8;
+  --button: red;
+  --logo: red;
+  --alt: rgb(245, 5, 55);
+  --textcolor: #fff;
+  font-family: "audi", sans-serif;
+}
+
+body[theme="youtube-dark"] .nav,
+body[theme="orange"] .nav {
+  border: 2px solid var(--button);
+}
+
 [theme="bone"] h1,
 [theme="bone"] a,
 [theme="bone"] p,
@@ -247,6 +265,15 @@ body[theme="orange"] .nav {
 [theme="bone"] select,
 [theme="bone"] input {
   font-family: "bone" !important;
+}
+
+[theme="audi"] h1,
+[theme="audi"] a,
+[theme="audi"] p,
+[theme="audi"] span,
+[theme="audi"] select,
+[theme="audi"] input {
+  font-family: "audi" !important;
 }
 body[theme="3kh0"] {
   --bg: #121212;
