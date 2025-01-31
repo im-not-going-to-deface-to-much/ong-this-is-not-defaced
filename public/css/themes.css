@@ -245,12 +245,13 @@ body[theme="orange"] .nav {
 }
 
 body[theme="audi"] {
+  font-family: "audi", sans-serif;
   --bg: #242627;
-  --button: red;
-  --logo: red;
+  --button: rgb(245, 5, 55);
+  --logo: rgb(245, 5, 55);
   --alt: rgb(245, 5, 55);
   --textcolor: #fff;
-  font-family: "audi", sans-serif;
+  --border: var(--button);
 }
 
 body[theme="youtube-dark"] .nav,
