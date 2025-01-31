@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "audi";
-  src: url("../media/auditype_extendedbold.ttf") format("truetype");
+  src: url("../media/auditype_extendednormal.ttf") format("truetype");
 }
 
 body[theme="greypurple"] {
@@ -265,6 +265,7 @@ body[theme="orange"] .nav {
 [theme="bone"] p,
 [theme="bone"] span,
 [theme="bone"] select,
+[theme="bone"] button,
 [theme="bone"] input {
   font-family: "bone" !important;
 }
