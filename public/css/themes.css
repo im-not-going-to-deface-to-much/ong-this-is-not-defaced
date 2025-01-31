@@ -245,7 +245,7 @@ body[theme="orange"] .nav {
 }
 
 body[theme="audi"] {
-  --bg: #c0c6c8;
+  --bg: #242627;
   --button: red;
   --logo: red;
   --alt: rgb(245, 5, 55);
