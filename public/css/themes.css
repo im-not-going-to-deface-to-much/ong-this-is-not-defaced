@@ -246,7 +246,7 @@ body[theme="orange"] .nav {
 
 body[theme="audi"] {
   font-family: "audi", sans-serif;
-  --bg: #242627;
+  --bg: rgb(130, 135, 136);
   --button: rgb(245, 5, 55);
   --logo: rgb(245, 5, 55);
   --alt: rgb(245, 5, 55);
